@@ -17,7 +17,7 @@ export default class Sourcery {
 
     static setEphemeridesPath(path: string | null = null) {
         if (path) {
-            Swisseph.swe_set_ephe_path(path);
+            Swisseph.swe_set_ephe_path('/Users/marzi/Desktop/AstroMagic/data/ephe');
         }
     }
 
