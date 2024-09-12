@@ -19,6 +19,8 @@ export default class Sourcery {
         if (path) {
             Swisseph.swe_set_ephe_path('/Users/marzi/Desktop/AstroMagic/data/ephe');
         }
+        console.log('setting the ephe path');
+        Swisseph.swe_set_ephe_path('/Users/marzi/Desktop/AstroMagic/data/ephe');
     }
 
     static getPlanets(date: Date):Array<Planet> {
